@@ -26,7 +26,7 @@
         facebook_like:      'Me gusta',
         facebook_share:     'Compartir',
         twitter_tweet:      'Tweet',  
-        twitter_follow:     'SIgueme en Twitter',  
+        twitter_follow:     'Sigueme en Twitter',  
         google_plus:        'Un +1',  
         google_share:       'Compartir',
         linkedin_share:     'Compartir'          
