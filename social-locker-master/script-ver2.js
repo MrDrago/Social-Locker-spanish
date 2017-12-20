@@ -14,22 +14,22 @@
     if (!$.onepress.sociallocker) $.onepress.sociallocker = {};
     if (!$.onepress.sociallocker.lang) $.onepress.sociallocker.lang = {};
     $.onepress.sociallocker.lang = {
-        defaultHeader:          "This content is locked!",
-        defaultMessage:         "Please support us, use one of the buttons below to unlock the content.",
-        orWait:                 'or wait',
-        seconds:                's',   
-        close:                  'Close',
-        error:                  'error',  
-        unableToLoadSDK:        'Unable to load SDK script for {0}. Please make sure that nothing blocks loading of social scripts in your browser. Some browser extentions (Avast, PrivDog, AdBlock etc.) can cause this issue. Turn them off and try again.',     
-        unableToCreateButton:   'Unable to create the button ({0}). Please make sure that nothing blocks loading of social scripts in your browser. Some browser extentions (Avast, PrivDog, AdBlock etc.) can cause this issue. Turn them off and try again.',
+        defaultHeader:          "Este contenido está bloqueado!",
+        defaultMessage:         "Ayúdenos, use uno de los botones a continuación para desbloquear el contenido.",
+        orWait:                 'o espera',
+        seconds:                'S',   
+        close:                  'Cerrar',
+        error:                  'Error',  
+        unableToLoadSDK:        'No se puede cargar la secuencia de comandos SDK para {0}. Asegúrate de que nada bloquee la carga de scripts sociales en tu navegador. Algunas extensiones del navegador (Avast, PrivDog, AdBlock, etc.) pueden causar este problema. Apáguelos e inténtalo de nuevo.',     
+        unableToCreateButton:   'No se puede crear el botón ({0}). Asegúrate de que nada bloquee la carga de scripts sociales en tu navegador. Algunas extensiones del navegador (Avast, PrivDog, AdBlock, etc.) pueden causar este problema. Apáguelos e inténtalo de nuevo.',
         // default button labels
-        facebook_like:      'like us',
-        facebook_share:     'share',
-        twitter_tweet:      'tweet',  
-        twitter_follow:     'follow us on twitter',  
-        google_plus:        '+1 us',  
-        google_share:       'share',
-        linkedin_share:     'share'          
+        facebook_like:      'Me gusta',
+        facebook_share:     'Compartir',
+        twitter_tweet:      'Tweet',  
+        twitter_follow:     'SIgueme en Twitter',  
+        google_plus:        'Un +1',  
+        google_share:       'Compartir',
+        linkedin_share:     'Compartir'          
     };  
     /*** Available buttons*/
     if (!$.onepress.sociallocker.buttons) $.onepress.sociallocker.buttons = {};
